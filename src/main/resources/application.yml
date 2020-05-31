@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+shirojwt:
+  login-url: /api/login
+  logout-url: /api/logout
+  jwtIssuer: yourIssuerName
+  token-header-key: Authorization
+
+logging:
+  level:
+    root: DEBUG
